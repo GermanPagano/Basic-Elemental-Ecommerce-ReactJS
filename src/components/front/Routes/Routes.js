@@ -9,17 +9,17 @@ const RoutesComponent = ({ productsAll, cartItems, handleAddProduct , handleRemo
       <Routes>
 
       <Route
-          path="/"
+          path="/Basic-Elemental-Ecommerce-ReactJS/"
           element={<Products productsAll={productsAll} handleAddProduct={handleAddProduct}/>}
           exact
         />
         <Route
-          path="/Home"
+          path="/Basic-Elemental-Ecommerce-ReactJS/Home"
           element={<Products productsAll={productsAll} handleAddProduct={handleAddProduct}/>}
           exact
         />
         <Route
-          path="/Cart"
+          path="/Basic-Elemental-Ecommerce-ReactJS/Cart"
           element={
             <Cart 
             cartItems={cartItems} 
