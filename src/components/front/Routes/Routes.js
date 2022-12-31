@@ -8,7 +8,7 @@ const RoutesComponent = ({ productsAll, cartItems, handleAddProduct , handleRemo
     <div>
       <Routes>
         <Route
-          path="/"
+          path="/Home"
           element={<Products productsAll={productsAll} handleAddProduct={handleAddProduct}/>}
           exact
         />
