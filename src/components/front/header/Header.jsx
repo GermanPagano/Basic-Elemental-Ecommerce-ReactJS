@@ -8,17 +8,17 @@ const Header = ( { cartItems }) => {
         <header className='header'>
             <div>
                 <h1>
-                    <Link to={'/Home'} className='logo'>FreeMarket</Link>
+                    <Link to={'/Basic-Elemental-Ecommerce-ReactJS/Home'} className='logo'>FreeMarket</Link>
                 </h1>
             </div>
 
             <div className='header-links'>
                 <ul>
                     <li>
-                        <Link to={'/Home'}>Home</Link>
+                        <Link to={'/Basic-Elemental-Ecommerce-ReactJS/Home'}>Home</Link>
                     </li>
                     <li>
-                        <Link to={'/Cart'} className='cart'><IoCart></IoCart>
+                        <Link to={'/Basic-Elemental-Ecommerce-ReactJS/Cart'} className='cart'><IoCart></IoCart>
                         <span className='cart-length'>{ cartItems.length >= 1 ? ( cartItems.length ) : ('')} </span>
                         </Link>
                     </li>
