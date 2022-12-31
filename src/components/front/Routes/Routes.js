@@ -7,6 +7,12 @@ const RoutesComponent = ({ productsAll, cartItems, handleAddProduct , handleRemo
   return (
     <div>
       <Routes>
+
+      <Route
+          path="/"
+          element={<Products productsAll={productsAll} handleAddProduct={handleAddProduct}/>}
+          exact
+        />
         <Route
           path="/Home"
           element={<Products productsAll={productsAll} handleAddProduct={handleAddProduct}/>}
